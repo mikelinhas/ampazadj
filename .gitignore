@@ -1,0 +1,25 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__
+/__pycache__
+__pycache__/
+
+# staticfiles
+staticfiles
+
+
+# Django stuff:
+*.log
+local_settings.py
+
+# django migrations 
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+
+# dotenv
+.env
+
+# other
+*.sqlite3.env

@@ -1,0 +1,115 @@
+.dotted {
+	border-bottom: 3px dotted;
+	padding: 9px;
+	position: relative;
+	top: -20px;
+}
+
+.solid {
+	border-bottom: 3px solid;
+	padding: 9px;
+	position: relative;
+	top: -20px;
+}
+
+
+.list-container {
+	width: 45%;
+	float: left;
+	margin: 5px;
+}
+
+
+.product-container {
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	margin-bottom: 5px;
+}
+
+
+.product-container h3 {
+	margin: 5px;
+	padding: 6px;
+}
+
+.product-container p {
+	padding: 10px;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: transparent;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+th {
+	text-align: left;
+}
+
+.table {
+	width: 80%;
+	max-width: 80%;
+	margin-bottom: 20px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+	padding: 8px;
+	line-height: 1.42857;
+	vertical-align: top;
+	border-top: 1 px solid #ddd;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: #f9f9f9;
+}
+
+.table-hover > tbody > tr:hover {
+	background-color: #b4c5dc;
+}
+
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  margin-top: 10px;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+
+.hidden-sm{
+
+}

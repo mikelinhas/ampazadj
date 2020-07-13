@@ -1,0 +1,31 @@
+{% include "./blank.html" %}
+
+{% block content %}
+
+<div class="container">
+
+	<nav aria-label="breadcrumb">
+	  <ol class="breadcrumb">
+	    <li class="breadcrumb-item"><a href="/home">Home</a></li>
+	  </ol>
+	</nav>
+
+	<h1>INFO from SQL</h1>
+	
+	<div style="margin: 20px">
+		Companies
+
+		{% for company in companies %}
+	    <li style="margin-left: 20px">
+	        <a href="./company/{{company.id}}">{{company.name}}</a>
+	    </li>
+		{% endfor %}
+
+	</div>
+
+
+</div>
+
+{% endblock %}
+
+
